@@ -63,13 +63,13 @@ struct ContentView: View {
                         //enable
                         if checkedProMax {
                             plistChange(plistPath: dynamicPath, key: "ArtworkDeviceSubType", value: 2796)
-                            currentSet = 2796
+                            currentSet = 2436
                             if shouldRedBarFix{
                                 setResolution()
                             }
                         }else{
                             plistChange(plistPath: dynamicPath, key: "ArtworkDeviceSubType", value: 2556)
-                            currentSet = 2556
+                            currentSet = 2532
                             if shouldRedBarFix{
                                 setResolution()
                             }
@@ -105,18 +105,18 @@ struct ContentView: View {
             }
             .padding()
             .onAppear{
-                if currentSet == 2556{
+                if currentSet == 2532{
                     withAnimation{
                         checkedPro = true
                     }
-                }else if currentSet == 2796{
+                }else if currentSet == 2436{
                     withAnimation{
                         checkedProMax = true
                     }
                 }
             }
             
-            .navigationTitle("DynamicCow")
+            .navigationTitle("LazyCow")
             .toolbar {
             
                 NavigationLink {
