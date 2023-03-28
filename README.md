@@ -1,6 +1,6 @@
 # LazyCow v0.0.1
 
-<img src="https://user-images.githubusercontent.com/77678316/228364000-b26898bf-1369-4521-86c3-9db4e25c286f.png" width="100" height="100"/>
+<img src="https://user-images.githubusercontent.com/77678316/228364000-b26898bf-1369-4521-86c3-9db4e25c286f.png" width="100" height="100"/>  <img src="https://user-images.githubusercontent.com/77678316/228379585-d0668eb8-7cd2-416d-bd9b-a1e7880d2258.gif" height="100"/>
 
 Disable the Dynamic Island on every iPhone 14 Pro / Pro Max running iOS 16.0 up to 16.1.2 using the MacDirtyCow exploit
 
