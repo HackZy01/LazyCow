@@ -132,8 +132,8 @@
 			);
 			dependencies = (
 			);
-			name = DynamicCow;
-			productName = DynamicCow;
+			name = LazyCow;
+			productName = LazyCow;
 			productReference = 2BEC6F07296A5E3600741B6E /* DynamicCow.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -344,7 +344,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zeph.DynamicCoww;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackz.LazyCow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -381,7 +381,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zeph.DynamicCoww;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackz.LazyCow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -394,7 +394,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2BEC6F02296A5E3600741B6E /* Build configuration list for PBXProject "DynamicCow" */ = {
+		2BEC6F02296A5E3600741B6E /* Build configuration list for PBXProject "LaztCow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2BEC6F13296A5E3900741B6E /* Debug */,
@@ -403,7 +403,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2BEC6F15296A5E3900741B6E /* Build configuration list for PBXNativeTarget "DynamicCow" */ = {
+		2BEC6F15296A5E3900741B6E /* Build configuration list for PBXNativeTarget "LazyCow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2BEC6F16296A5E3900741B6E /* Debug */,
