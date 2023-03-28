@@ -38,7 +38,34 @@ struct AppearanceCellView: View {
                             impact.impactOccurred()
                             checkedProMax = false
                             self.checkedPro = true
+                        }
+                    }
 
+
+                    Spacer()
+
+                    VStack(alignment: .center, spacing: 10){
+                        Image(systemName: "iphone.gen3")
+                            .font(.system(size: 120))
+                            .symbolRenderingMode(.hierarchical)
+                            .foregroundStyle(.white.opacity(0.7))
+
+                        Text("iPhone 13\nPro Max")
+                            .multilineTextAlignment(.center)
+
+                        Image(systemName: checkedProMax ? "checkmark.circle.fill" : "circle")
+                            .foregroundColor(checkedProMax ? .white : .secondary)
+                            .font(.title)
+                            .padding([.horizontal, .top])
+
+
+                    }//.padding()
+                    .onTapGesture {
+                        withAnimation{
+                            let impact = UIImpactFeedbackGenerator(style: .light)
+                            impact.impactOccurred()
+                            checkedPro = false
+                            self.checkedProMax = true
                         }
                     }
                     
