@@ -1,4 +1,4 @@
-# LazyCow
+# LazyCow v0.0.1
 
 <img src="https://user-images.githubusercontent.com/77678316/228364000-b26898bf-1369-4521-86c3-9db4e25c286f.png" width="100" height="100"/>
 
@@ -6,6 +6,9 @@ Disable the Dynamic Island on every iPhone 14 Pro / Pro Max running iOS 16.0 up 
 
 ## The end goal
 <img src="https://user-images.githubusercontent.com/77678316/228371794-ff31c42e-5629-4af2-bec6-fa2fd79b5f7f.png" height="400"/>
+
+## Disclaimer
+This is an alpha release, I don't own an iPhone 14 Pro, so I am unable to test it at this moment, I am not responsible for any damage or harm done to your device
 
 ## Troubleshoot
 The app now have a Troubleshoot section to restore the plist file, but if you want you can also use [this shortcut](https://routinehub.co/shortcut/4920/)
