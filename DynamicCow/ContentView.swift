@@ -63,7 +63,7 @@ struct ContentView: View {
                         //enable
                         if checkedProMax {
                             plistChange(plistPath: dynamicPath, key: "ArtworkDeviceSubType", value: 2796)
-                            currentSet = 2436
+                            currentSet = 2778
                             if shouldRedBarFix{
                                 setResolution()
                             }
