@@ -22,7 +22,7 @@ struct AppearanceCellView: View {
                             .symbolRenderingMode(.hierarchical)
                             .foregroundStyle(.white.opacity(0.7))
                     
-                        Text("iPhone 14\nPro")
+                        Text("iPhone 13\nPro")
                             .multilineTextAlignment(.center)
                         
                         Image(systemName: checkedPro ? "checkmark.circle.fill" : "circle")
@@ -50,7 +50,7 @@ struct AppearanceCellView: View {
                             .symbolRenderingMode(.hierarchical)
                             .foregroundStyle(.white.opacity(0.7))
                            
-                        Text("iPhone 14\nPro Max")
+                        Text("iPhone 12\nPro")
                             .multilineTextAlignment(.center)
                         
                         Image(systemName: checkedProMax ? "checkmark.circle.fill" : "circle")
@@ -74,7 +74,7 @@ struct AppearanceCellView: View {
             } header: {
                 Text("Layout")
             } footer: {
-                Text("Choose between the iPhone 14 Pro and the iPhone 14 Pro Max layout before start.")
+                Text("Choose between the iPhone 13 Pro and the iPhone 12 Pro layout before start.")
                     .padding(.top)
             }
 
